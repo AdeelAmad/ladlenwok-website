@@ -1,0 +1,355 @@
+<!--per event gallery-->
+<!--carosoule per event-->
+<!--filters-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+          rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <style>
+        @font-face {
+            font-family: 'Custom';
+            src: url('Fonts/Galantis.otf')
+        }
+
+        @font-face {
+            font-family: 'Custom2';
+            src: url('Fonts/Mukta-Regular.ttf')
+        }
+
+        h1 {
+            font-family: 'Custom';
+        }
+
+        h2 {
+            font-family: 'Custom2';
+        }
+
+        h4 {
+            font-family: 'Custom2';
+        }
+
+        btn {
+            font-family: 'Custom2';
+        }
+
+        p {
+            font-family: 'Custom2';
+        }
+
+        .navbar-brand {
+            font-family: 'Custom';
+        }
+
+        .nav-link {
+            font-family: 'Custom2';
+        }
+
+        .scrolled {
+            background-color: #fff !important;
+            transition: background-color 200ms linear;
+        }
+
+        .scrolled2 {
+            background-color: #ffe2d8 !important;
+            transition: background-color 200ms linear;
+        }
+
+        .active {
+            filter: drop-shadow(1px 1px 0.05rem #363636);
+        }
+
+        .backgroundcolor {
+            background-color: #ffd8b7;
+        }
+
+        @media screen and (max-width: 1000px) {
+            .breaker {
+                width: 100%;
+                margin-top: 3rem;
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+            .breaker {
+                width: 0%;
+            }
+        }
+
+<!--    </style>-->
+<!--    <script>-->
+<!--        $(function () {-->
+<!--            $(document).scroll(function () {-->
+<!--                var $nav = $(".navbar");-->
+<!--                var $nav2 = $(".scroller");-->
+<!--                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());-->
+<!--            });-->
+<!--        });-->
+<!--    </script>-->
+</head>
+
+<body style="background-image: url('Images/background2.png'); background-size: cover;" class="pt-5">
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg fixed-top scrolled">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Ladle N Wok</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="testimonials.html">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="packages.html">Packages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">About Us</a>
+                            </li>
+                        </ul>
+                        <a class="btn btn-success" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row mt-3 pb-4 rounded-8 scroller">
+        <div class="col">
+            <h1 class="text-center pt-5">Gallery</h1>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery%202/1.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery%202/2.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/1.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery%202/4.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/13.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery%202/7.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery%202/6.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/4.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery%202/3.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/11.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/2.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/5.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/7.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/6.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/8.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/10.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-8">
+            <img src="Gallery/14.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/16.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/17.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/18.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/22.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/23.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/24.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/20.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/21.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/25.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/26.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/27.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/29.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/30.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/28.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/31.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery/32.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col">
+            <img src="Gallery/33.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+        <div class="breaker"></div>
+        <div class="col">
+            <img src="Gallery%202/8.jpeg" class="img-fluid rounded" alt="line" style="height: 100%;">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <footer class="text-center text-white">
+            <!-- Grid container -->
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="">
+                    <!-- Facebook -->
+                    <a target="_blank" class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="https://www.facebook.com/ladlewok"
+                       role="button"
+                       data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+                    <!-- Instagram -->
+                    <a target="_blank" class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="https://www.instagram.com/ladle_n_wok/"
+                       role="button"
+                       data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+                    <!-- Yelp -->
+                    <a target="_blank" class="btn btn-link btn-floating btn-lg text-dark m-1"
+                       href="https://www.yelp.com/biz/ladle-n-wok-brentwood"
+                       role="button"
+                       data-mdb-ripple-color="dark"><i class="fab fa-yelp"></i></a>
+
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center text-dark p-3">2020-2023
+                <span class="text-dark">Ladle n Wok </span>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+</body>
