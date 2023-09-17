@@ -7,7 +7,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFB28H4E0E"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-LFB28H4E0E');
@@ -18,8 +22,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet"/>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
 
     <style>
         @font-face {
@@ -118,14 +125,14 @@
             }
         }
     </script>
-        <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $(".positioner");
-                    $nav.toggleClass('scrolled2', $(this).scrollTop() > 5*$nav.height());
-                });
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".positioner");
+                $nav.toggleClass('scrolled2', $(this).scrollTop() > 5 * $nav.height());
             });
-        </script>
+        });
+    </script>
 </head>
 
 <body style="background-image: url('Images/background2.png'); background-size: cover;" class="pt-5">
@@ -258,7 +265,13 @@
 
         </div>
     </div>
-    <div class="row pt-5">
+    <div class="row pt-3">
+        <div class="text-center col">
+            <p>We do per head pricing for events with more than 75 guests. Please see our packages page for more
+                information.</p>
+        </div>
+    </div>
+    <div class="row pt-3">
         <div class="col">
             <h1 class="text-center">Menu</h1>
         </div>
@@ -354,43 +367,19 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td><p>Grilled Corn n Bean</p><small>A delightful dish of grilled corn and mixed beans
-                                tossed in a tangy vinaigrette, garnished with fresh herbs. This vegetarian delight is
-                                perfect as a side or a light main.</small></td>
-                            <td>$80</td>
-                        </tr>
-                        <tr>
-                            <td><p>Creamy Potato</p><small>Tender boiled potatoes, tossed in a creamy and tangy
-                                dressing, topped with an array of spices and herbs, create a dish that is simple yet
-                                utterly satisfying.</small></td>
-                            <td>$80</td>
-                        </tr>
-                        <tr>
-                            <td><p>Cranberry and Quinoa</p><small>This healthy and flavorful salad features a blend of
-                                nutty quinoa, sweet cranberries, and crunchy vegetables tossed in a zesty dressing with
-                                a touch of sweetness from honey. Perfect for a light lunch or a side dish.</small></td>
-                            <td>$80</td>
-                        </tr>
-                        <tr>
-                            <td><p>Mexican Macaroni</p><small>A flavorful twist on classic macaroni, this
-                                Mexican-inspired dish features al dente pasta coated in a savory blend of spices, herbs,
-                                and jalapeños, finished with a sprinkle of grated cheese.</small></td>
-                            <td>$80</td>
-                        </tr>
-                        <tr>
                             <td><p>Mediterranian Chickpea</p><small>A hearty and nutritious salad featuring plump
                                 chickpeas, crisp cucumbers, and juicy tomatoes tossed in a refreshing vinaigrette with a
                                 hint of herbs, lemon, and feta cheese. Perfect as a light lunch or dinner.</small></td>
                             <td>$80</td>
                         </tr>
                         <tr>
-                            <td><p>Taco</p><small>Cor tortilla with a delectable mixture of seasoned meat and beans,
+                            <td><p>Taco</p><small>Corn tortilla with a delectable mixture of seasoned meat and beans,
                                 crisp lettuce, ripe tomatoes, and a drizzle of spicy salsa, makes for a deliciously
                                 satisfying meal.</small></td>
                             <td>$80</td>
                         </tr>
                         <tr>
-                            <td><p>Cucumber Tomato Avocado</p><small>Tender chicken, sautéed with seasonal vegetables,
+                            <td><p>Cucumber Tomato Avocado</p><small>Tender chicken, sauteed with seasonal vegetables,
                                 and seasoned with homemade aromatic spices, make this a satisfyingly delicious autumnal
                                 dish.</small></td>
                             <td>$80</td>
@@ -408,7 +397,7 @@
                             <td>$80</td>
                         </tr>
                         <tr>
-                            <td><p>Autumn Chicken</p><small>Tender chicken, sautéed with seasonal vegetables, and
+                            <td><p>Autumn Chicken</p><small>Tender chicken, sauteed with seasonal vegetables, and
                                 seasoned with aromatic spices like cinnamon, nutmeg, and sage, make this a satisfyingly
                                 delicious autumnal dish.</small></td>
                             <td>$90</td>
@@ -451,16 +440,13 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td><b>Biryani</b></td>
-                        </tr>
-                        <tr>
                             <td><p>Chicken</p><small>Tender pieces of chicken, marinated in a blend of aromatic spices,
                                 and cooked with long-grain basmati rice, create a mouth-watering dish that is both
                                 flavorful and satisfying.</small></td>
                             <td>$135</td>
                         </tr>
                         <tr>
-                            <td><p>Chicken Tikka</p><small>uicy chicken tikka, cooked to perfection, and layered with
+                            <td><p>Chicken Tikka</p><small>Juicy chicken tikka, cooked to perfection, and layered with
                                 fragrant basmati rice, create a dish that is bursting with flavor and spice.</small>
                             </td>
                             <td>$145</td>
@@ -492,9 +478,6 @@
                             <td><p>Prawn</p><small>Juicy prawns, cooked with fragrant basmati rice and aromatic spices,
                                 create a dish that is both light and flavorful, perfect for seafood lovers.</small></td>
                             <td>$160</td>
-                        </tr>
-                        <tr>
-                            <td><b>Pulao</b></td>
                         </tr>
                         <tr>
                             <td><p>Chicken</p><small>Tender chicken pieces simmered in a fragrant, homemade broth
@@ -554,9 +537,6 @@
                             <td>$90</td>
                         </tr>
                         <tr>
-                            <td><b>Other</b></td>
-                        </tr>
-                        <tr>
                             <td><p>Singaporian</p><small>A flavorful rice dish inspired by the vibrant culinary scene of
                                 Singapore, featuring fragrant Basmati rice cooked in a delicious blend of spices and
                                 served with succulent chicken or vegetables.</small></td>
@@ -593,65 +573,61 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td><b>Chicken</b></td>
-                        </tr>
-                        <tr>
-                            <td><p>Qorma</p><small>A rich and flavorful dish featuring succulent chicken cooked in a
-                                creamy and aromatic sauce made with yogurt, onions, and a blend of fragrant
-                                spices.</small></td>
+                            <td><p>Qorma</p><small>An exquisite masterpiece of slow-cooked meat, enriched with a
+                                fragrant blend of spices, yogurt, and cream. Each bite unveils a rich and aromatic
+                                journey into the heart of traditional cuisine, delivering comfort and satisfaction with
+                                every taste.</small></td>
                             <td>$140</td>
                         </tr>
                         <tr>
-                            <td><p>Karahi</p><small>A popular South Asian dish featuring tender chicken pieces
-                                stir-fried with tomatoes and a blend of aromatic spices in a traditional wok-style
-                                cooking vessel called a karahi.</small></td>
+                            <td><p>Karahi</p><small>Sizzling wok-cooked meat with tomatoes, bursting with spices and
+                                flavors. </small></td>
                             <td>$140</td>
                         </tr>
                         <tr>
-                            <td><p>Badaami Qorma</p><small>This sumptuous and creamy dish features succulent chicken in
-                                a rich almond-based sauce, slow-cooked to perfection with a blend of fragrant spices and
-                                garnished with slivered almonds.</small></td>
+                            <td><p>Badaami Qorma</p><small>A sumptuous dish featuring tender meat, delicately cooked in
+                                a creamy almond-infused sauce, creating a harmonious blend of rich flavors and nutty
+                                undertones. A luxurious addition to your menu.</small></td>
                             <td>$160</td>
                         </tr>
                         <tr>
-                            <td><p>Nihari</p><small>A classic slow-cooked stew featuring tender chicken simmered in a
-                                spicy and aromatic broth made with a blend of flavorful spices.</small></td>
+                            <td><p>Chicken Nihari</p><small>A flavorsome classic, featuring slow-cooked chicken in a
+                                hearty, well-spiced gravy. An inviting and comforting choice for your menu.</small></td>
                             <td>$170</td>
                         </tr>
                         <tr>
-                            <td><p>Tikka Karahi</p><small>A delicious and flavorful dish featuring juicy chicken tikka
-                                cooked with tomatoes, and a blend of aromatic spices in a traditional karahi-style
-                                cooking vessel.</small></td>
+                            <td><p>Tikka Karahi</p><small>A fusion of juicy tikka-style meat wok-tossed with a medley of
+                                spices and vibrant tomatoes creating lively and flavorful culinary experience.</small>
+                            </td>
                             <td>$160</td>
                         </tr>
                         <tr>
-                            <td><p>Behari Qorma</p><small>A mouthwatering specialty featuring succulent chicken pieces
-                                cooked in a rich and flavorful sauce made with yogurt, onions, and a blend of aromatic
-                                spices, including the famous Behari spice blend.</small></td>
+                            <td><p>Behari Qorma</p><small>A mouth watering speciality featuring chicken marinated with
+                                robust flavors of Bihari spices and simmered to perfection in a well-seasoned
+                                sauce. </small></td>
                             <td>$150</td>
                         </tr>
                         <tr>
-                            <td><p>Shahjahani Chicken</p><small>A regal and flavorful Mughlai dish featuring succulent
-                                chicken in a creamy and aromatic sauce made with cashews, cream, and a blend of fragrant
-                                spices.</small></td>
+                            <td><p>Shahjahani Chicken</p><small>A regal dish showcasing tender chicken, cooked in a
+                                royal blend of spices and rich gravy, reminiscent of the grandeur of traditional cuisine
+                                for your menu.</small></td>
                             <td>$150</td>
                         </tr>
                         <tr>
-                            <td><p>Achari Murgh</p><small>This tangy and spicy dish features succulent chicken cooked
-                                with a blend of pickling spices, including mustard seeds, fennel seeds, and nigella
-                                seeds, in a tangy and flavorful sauce.</small></td>
+                            <td><p>Achari Murgh</p><small>A zesty dish featuring tender chicken cooked with tangy
+                                pickling spices, creating a rich and delectable culinary delight. </small></td>
                             <td>$150</td>
                         </tr>
                         <tr>
-                            <td><p>Murgh Cholay</p><small>A hearty and flavorful dish featuring succulent chicken cooked
-                                with chickpeas, tomatoes, and a blend of aromatic spices, including garam masala, cumin,
-                                and coriander.</small></td>
+                            <td><p>Murgh Cholay</p><small>A true legacy of Punjabi Cuisine . Dhaba style chicken and
+                                garbanzo beans curry in a spicy tomatoes masala. </small></td>
                             <td>$130</td>
                         </tr>
                         <tr>
-                            <td><p>Handi</p><small>Succulent pieces of chicken marinated in a blend of spices and
-                                slow-cooked in a traditional clay pot, resulting in a deliciously aromatic and flavorful
-                                dish.</small></td>
+                            <td><p>Handi</p><small>Elevate your event with this delicacy that is sure to leave a lasting
+                                impression on your guests. Enjoy the creamy indulgence of our Malai Handi, where
+                                boneless pieces of chicken are cooked in a rich and decadent cream-based gravy.</small>
+                            </td>
                             <td>$150</td>
                         </tr>
                         <tr>
@@ -660,15 +636,13 @@
                             <td>$160</td>
                         </tr>
                         <tr>
-                            <td><p>Tikka Masala</p><small>Char-grilled chicken tikka simmered in a tomato-based sauce
-                                infused with a medley of aromatic spices and finished with a touch of cream.</small>
-                            </td>
+                            <td><p>Tikka Masala</p><small>Grilled chicken in a rich, spicy tomato sauce, a crowd-pleaser
+                                for every occasion. </small></td>
                             <td>$150</td>
                         </tr>
                         <tr>
-                            <td><p>Butter Chicken</p><small>Morsels of tandoori chicken cooked in a velvety tomato and
-                                cashew gravy, enriched with butter and cream, and garnished with fenugreek
-                                leaves.</small></td>
+                            <td><p>Murgh Makhni</p><small>Treat your taste buds to Murgh Makhni: tender chicken in a
+                                creamy tomato and butter sauce. </small></td>
                             <td>$150</td>
                         </tr>
                         <tr>
@@ -677,9 +651,9 @@
                             <td>$150</td>
                         </tr>
                         <tr>
-                            <td><p>Qeema Karahi</p><small>Minced chicken sautéed with ginger, garlic, and onions, cooked
-                                in a spicy tomato-based gravy, and garnished with fresh coriander and green
-                                chilies.</small></td>
+                            <td><p>Qeema Karahi</p><small>Savor the authentic flavors of Qeema Karahi, a delightful dish
+                                featuring minced meat cooked with a blend of spices and herbs in a spicy tomato based
+                                gravy. </small></td>
                             <td>$140</td>
                         </tr>
                         <tr>
@@ -688,8 +662,8 @@
                             <td>$140</td>
                         </tr>
                         <tr>
-                            <td><p>Kabob Karahi</p><small>Succulent pieces of marinated chicken kabobs cooked in a spicy
-                                tomato-based gravy, finished with fresh coriander and green chilies.</small></td>
+                            <td><p>Kabob Karahi</p><small>Experience the savory Kabab Karahi, a fusion of tender kababs
+                                and a rich, aromatic tomato-based gravy. </small></td>
                             <td>$160</td>
                         </tr>
                         <tr>
@@ -697,12 +671,10 @@
                                 porridge, garnished with fried onions, ginger, and lemon.</small></td>
                             <td>$150</td>
                         </tr>
+
                         <tr>
-                            <td><b>Beef</b></td>
-                        </tr>
-                        <tr>
-                            <td><p>Qorma</p><small>Tender beef cooked in a creamy and aromatic sauce infused with a
-                                blend of spices.</small></td>
+                            <td><p>Qorma</p><small>Experience the rich and aromatic Beef Qorma, a dish that showcases
+                                tender beef simmered in a decadent blend of spices and yogurt-based gravy. </small></td>
                             <td>$150</td>
                         </tr>
                         <tr>
@@ -721,20 +693,18 @@
                             <td>$185</td>
                         </tr>
                         <tr>
-                            <td><p>Boti Masala</p><small>Boti Masala is a delectable South Asian dish featuring tender
-                                chunks of beef cooked in a mildly spiced gravy, infused with a medley of aromatic spices
-                                and finished with fresh coriander and green chilies.</small></td>
+                            <td><p>Boti Masala</p><small>tender beef chunks marinated in aromatic spices, yogurt, and
+                                lemon juice, cooked in a rich and savory masala sauce. </small></td>
                             <td>$185</td>
                         </tr>
                         <tr>
-                            <td><p>Achar Gosht</p><small>Boti Masala is a delectable South Asian dish featuring tender
-                                chunks of beef cooked in a mildly spiced gravy, infused with a medley of aromatic spices
-                                and finished with fresh coriander and green chilies.</small></td>
+                            <td><p>Achar Gosht</p><small>tender beef chunks marinated in aromatic spices, yogurt, and
+                                lemon juice, cooked in a rich and savory masala sauce. </small></td>
                             <td>$170</td>
                         </tr>
                         <tr>
-                            <td><p>Aaloo Gosht</p><small>A hearty South Asian dish made with beef and potatoes,
-                                slow-cooked in a spiced sauce and garnished with fresh coriander.</small></td>
+                            <td><p>Aaloo Gosht</p><small>A flavorful creation that combines tender meat with the lively,
+                                spicy notes of pickles and an intricate blend of spices. </small></td>
                             <td>$140</td>
                         </tr>
                         <tr>
@@ -743,13 +713,14 @@
                             <td>$170</td>
                         </tr>
                         <tr>
-                            <td><p>Dum Qeema</p><small>Minced beef marinated with aromatic spices and cooked with fresh
-                                herbs and then smoked to give intense mouth watering flavors.</small></td>
+                            <td><p>Dum Qeema</p><small>Minced meat, slow cooked with fragrant spices , creating a rich
+                                and flavorful dish. </small></td>
                             <td>$150</td>
                         </tr>
                         <tr>
-                            <td><p>Haleem</p><small>A slow-cooked and flavorful stew made with beef, lentils, and wheat
-                                porridge, garnished with fried onions, ginger, and lemon.</small></td>
+                            <td><p>Haleem</p><small>Delight in the heartwarming flavors of Chicken Haleem, a
+                                slow-cooked, creamy blend of chicken, lentils, and spices, creating a comforting and
+                                hearty addition to your catering menu.</small></td>
                             <td>$175</td>
                         </tr>
                         <tr>
@@ -781,9 +752,6 @@
                             <td><p>Qeema Karailay</p><small>Minced beef cooked with bitter gourd (karela) and a blend of
                                 spices, garnished with fresh coriander and green chilies.</small></td>
                             <td>$170</td>
-                        </tr>
-                        <tr>
-                            <td><b>Mutton</b></td>
                         </tr>
                         <tr>
                             <td><p>Mutton Qorma</p><small>Succulent chunks of mutton are cooked in a luscious gravy
@@ -879,16 +847,14 @@
                             <td>$140</td>
                         </tr>
                         <tr>
-                            <td><p>Chicken Manchurian</p><small>Our popular Indo-Chinese dish features fried chicken
-                                balls coated in a tangy and slightly sweet sauce, and is garnished with fresh spring
-                                onions and green chilies, adding a refreshing touch to the dish.</small></td>
+                            <td><p>Chicken Manchurian</p><small>Our popular Indo- Chinese dish features tender pieces of
+                                Chicken with a savory, tangy sauce infused with a hint of spice. </small></td>
                             <td>$140</td>
                         </tr>
                         <tr>
-                            <td><p>Chili Chicken</p><small>Our spicy and flavorful dish features crispy chicken pieces
-                                tossed in a fiery sauce made with ginger, garlic, soy sauce, and chili paste, and is
-                                garnished with fresh coriander leaves, adding a burst of freshness to the dish.</small>
-                            </td>
+                            <td><p>Chili Chicken</p><small>Another popular dish known for its bold and zesty flavors.
+                                Crispy chicken pieces stir fried with a flavorful sauce and served as an appetizer or a
+                                main course.</small></td>
                             <td>$140</td>
                         </tr>
                         <tr>
@@ -928,10 +894,9 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td><p>Chaana Masala</p><small>This vegetarian delicacy features a tantalizing blend of
-                                aromatic spices and herbs that infuse the tender chickpeas with rich and complex
-                                flavors, all simmered together in a tangy tomato-based sauce that's sure to satisfy your
-                                cravings.</small></td>
+                            <td><p>Chaana Masala</p><small>Tender chickpeas cooked in a flavorful tomato-based sauce
+                                enriched with a blend of fragrant spices. Perfect as a main course or side dish.</small>
+                            </td>
                             <td>$100</td>
                         </tr>
                         <tr>
@@ -943,15 +908,15 @@
                         </tr>
                         <tr>
                             <td><p>Aloo Ghobi</p><small>Our classic dish features a delicious medley of tender
-                                cauliflower florets and potatoes that are delicately spiced with a blend of aromatic
-                                masalas, creating a comforting and satisfying meal that's perfect for vegetarians and
+                                cauliflower florets and potatoes that are delicately spiced with a blend of masalas,
+                                creating a comforting and satisfying meal that's perfect for vegetarians and
                                 non-vegetarians alike.</small></td>
                             <td>$95</td>
                         </tr>
                         <tr>
                             <td><p>Aloo Palak</p><small>This healthy and nutritious dish showcases the subtle and earthy
                                 flavors of spinach and potatoes, which are cooked in a creamy and fragrant sauce that's
-                                made with a blend of aromatic spices and herbs, creating a hearty and satisfying meal
+                                made with a blend of enticing spices and herbs, creating a hearty and satisfying meal
                                 that's perfect for any time of day.</small></td>
                             <td>$95</td>
                         </tr>
@@ -963,71 +928,63 @@
                         </tr>
                         <tr>
                             <td><p>Mix Daal</p><small>Our vibrant and flavorful curry features a medley of fresh
-                                vegetables cooked in a fragrant sauce that's spiced with a blend of aromatic spices and
-                                herbs, creating a delicious and healthy meal that's perfect for vegetarians and
-                                veggie-lovers alike.</small></td>
+                                vegetables cooked in a delicious sauce that is spiced with a blend of spices and herbs,
+                                resulting in a delicious and healthy meal. </small></td>
                             <td>$90</td>
                         </tr>
                         <tr>
-                            <td><p>Mix Vegetable Curry</p><small>This mouth-watering dish from Hyderabad features tender
-                                and succulent eggplant and potatoes that are cooked to perfection in a fragrant and
-                                savory sauce made with a blend of flavorful spices and herbs.</small></td>
+                            <td><p>Mix Vegetable Curry</p><small>Savor the unique flavors of Bhagaray Baingan, a
+                                traditional Hyderabadi dish featuring tender baby eggplants cooked with a delectable
+                                blend of spices and tamarind. Elevate your catering menu with this flavorful and tangy
+                                option that's sure to captivate your guests' taste buds.</small></td>
                             <td>$100</td>
                         </tr>
                         <tr>
-                            <td><p>Bagharay Baingan</p><small>This mouth-watering dish from Hyderabad features tender
-                                and succulent eggplant and potatoes that are cooked to perfection in a fragrant and
-                                savory sauce made with a blend of flavorful spices and herbs.</small></td>
+                            <td><p>Bagharay Baingan</p><small>Savor the unique flavors of Bhagaray Baingan, a
+                                traditional Hyderabadi dish featuring tender baby eggplants cooked with a delectable
+                                blend of spices and tamarind. Elevate your catering menu with this flavorful and tangy
+                                option that's sure to captivate your guests' taste buds.</small></td>
                             <td>$160</td>
                         </tr>
                         <tr>
-                            <td><p>Aloo Baingan</p><small>This classic and comforting dish features a delightful
-                                combination of tender eggplant and potatoes that are cooked in a savory and flavorful
-                                sauce infused with a blend of aromatic masalas, creating a hearty and satisfying meal
-                                that's perfect for vegetarians and non-vegetarians alike.</small></td>
+                            <td><p>Aloo Baingan</p><small>A classic dish that brings together tender potatoes and egg
+                                plant. </small></td>
                             <td>$100</td>
                         </tr>
                         <tr>
-                            <td><p>Lazeez Baingan</p><small>Our tantalizing and flavorful dish showcases the unique
-                                taste and texture of eggplant, which is cooked to perfection in a creamy and fragrant
-                                sauce that's made with a blend of aromatic spices and herbs, creating a satisfying and
-                                healthy meal that's perfect for any time of day.</small></td>
+                            <td><p>Lazeez Baingan</p><small>Our signature dish which showcases the unique taste and
+                                texture of eggplant. </small></td>
                             <td>$110</td>
                         </tr>
                         <tr>
-                            <td><p>Zeera Aloo</p><small>This simple yet flavorful dish features tender and delicious
-                                potatoes that are cooked in a blend of aromatic spices and herbs, creating a hearty and
-                                satisfying meal that's perfect for vegetarians and non-vegetarians alike.</small></td>
+                            <td><p>Zeera Aloo</p><small>A simple yet flavorful dish featuring tender potatoes sautéed
+                                with the earthy flavors of cumin seeds.</small></td>
                             <td>$80</td>
                         </tr>
                         <tr>
                             <td><p>Karhi Pakora</p><small>Our tangy and delicious dish features a blend of chickpea
                                 flour, yogurt, and spices that's simmered to perfection with crunchy and crispy pakoras
-                                (fritters), creating a satisfying and healthy meal that's perfect for vegetarians and
-                                non-vegetarians alike.</small></td>
+                                (fritters).</small></td>
                             <td>$120</td>
                         </tr>
                         <tr>
                             <td><p>Lobia Masala</p><small>This hearty and flavorful dish features tender and
                                 protein-rich black-eyed peas that are cooked in a tangy and aromatic sauce infused with
-                                a blend of flavorful spices and herbs, creating a delicious and healthy meal that's
-                                perfect for vegetarians and non-vegetarians alike.</small></td>
+                                a blend of flavorful spices and herbs.</small></td>
                             <td>$120</td>
                         </tr>
                         <tr>
                             <td><p>Mattar Panner</p><small>Our classic and indulgent dish features a delightful
                                 combination of tender green peas and soft and creamy paneer (Indian cottage cheese) that
-                                are cooked in a rich and savory sauce infused with a blend of aromatic spices and herbs,
-                                creating a hearty and satisfying meal that's perfect for vegetarians and non-vegetarians
-                                alike.</small></td>
+                                are cooked in a rich and savory sauce infused with a blend of aromatic spices and
+                                herbs.</small></td>
                             <td>$130</td>
                         </tr>
                         <tr>
                             <td><p>Panner Jalfrezi</p><small>Our vibrant and colorful dish features tender and creamy
                                 paneer (Indian cottage cheese) that's cooked to perfection with a medley of fresh and
                                 crunchy vegetables in a tangy and spicy sauce infused with a blend of aromatic spices
-                                and herbs, creating a satisfying and healthy meal that's perfect for vegetarians and
-                                non-vegetarians alike.</small></td>
+                                and herbs.</small></td>
                             <td>$130</td>
                         </tr>
                         </tbody>
@@ -1078,31 +1035,24 @@
                             <td>$3.5</td>
                         </tr>
                         <tr>
-                            <td><p>Tandoori Chicken</p><small>Indulge in the classic and beloved flavors of our Tandoori
-                                Chicken, featuring succulent and flavorful pieces of chicken, marinated in a blend of
-                                yogurt and spices, and roasted in a traditional clay oven for a smoky and satisfying
-                                meal.</small></td>
+                            <td><p>Tandoori Chicken</p><small>Marinated grilled chicken, bursting with aromatic flavors.
+                                A stand out choice for your catering needs.</small></td>
                             <td>$4.75</td>
                         </tr>
                         <tr>
-                            <td><p>Chicken Tikka</p><small>Treat your taste buds to the bold and zesty flavors of our
-                                Chicken Tikka, featuring tender pieces of chicken, marinated in a blend of aromatic
-                                spices and yogurt, and grilled to perfection for a juicy and satisfying meal.</small>
-                            </td>
+                            <td><p>Chicken Tikka</p><small>Chicken quarter, marinated in a medley of spices & yogurt and
+                                grilled to smokey perfection. </small></td>
                             <td>$4.75</td>
                         </tr>
                         <tr>
-                            <td><p>Chicken Malai Boti</p><small>Indulge in our mouth-watering Chicken Malai Boti that
-                                features tender chunks of boneless chicken that are marinated in a creamy blend of
-                                yogurt and spices, creating a juicy and flavorful meal that's perfect for any
-                                occasion.</small></td>
+                            <td><p>Chicken Malai Boti</p><small>Mouth watering tender chunks of boneless chicken,
+                                marinated in a creamy blend of yogurt and spices, creating a juicy and flavorful meal
+                                that is perfect for any occasion. </small></td>
                             <td>$4.75</td>
                         </tr>
                         <tr>
-                            <td><p>Chicken Boti Kebab</p><small>Savor the rich and smoky flavor of our Chicken Boti
-                                Kebab, which is made with succulent pieces of boneless chicken that are marinated in a
-                                blend of spices and cooked to perfection over an open flame, creating a delicious and
-                                healthy meal that's perfect for any time of day.</small></td>
+                            <td><p>Kasturi Murgh Boti</p><small>Boneless chicken cubes, marinated in special herbs
+                                . </small></td>
                             <td>$4.75</td>
                         </tr>
                         <tr>
@@ -1113,23 +1063,18 @@
                             <td>$4.75</td>
                         </tr>
                         <tr>
-                            <td><p>Lahori Chargha (Whole Chicken)</p><small>Indulge in the bold and flavorful taste of
-                                our Lahori Chargha, a classic Pakistani dish that features a whole chicken that's
-                                marinated in a blend of spices and deep-fried to perfection, creating a crispy and juicy
-                                meal that's perfect for sharing with family and friends.</small></td>
+                            <td><p>Lahori Chargha (Whole Chicken)</p><small>A must try from our menu. Whole chicken,
+                                spiced and crisped to perfection . </small></td>
                             <td>$30</td>
                         </tr>
                         <tr>
-                            <td><p>Rotisserie Chicken (Whole)</p><small>Our Rotisserie Chicken is slow-roasted to
-                                perfection, resulting in a juicy and tender meal that's bursting with flavor and perfect
-                                for any occasion.</small></td>
+                            <td><p>Rotisserie Chicken (Whole)</p><small>Juicy, tender chicken slow-roasted to
+                                perfection, making it a delightful highlight of your dining experience.</small></td>
                             <td>$30</td>
                         </tr>
                         <tr>
-                            <td><p>Sajji (Whole Chicken)</p><small>Savor the delicious and exotic taste of our Sajji, a
-                                traditional Balochi dish that features a whole chicken that's marinated in a blend of
-                                spices, creating a succulent and flavorful meal that's sure to satisfy your
-                                cravings.</small></td>
+                            <td><p>Sajji (Whole Chicken)</p><small>A tantalizing speciality, slow roasted chicken,
+                                infused with a unique blend of regional spices. </small></td>
                             <td>$30</td>
                         </tr>
                         </tbody>
@@ -1160,7 +1105,7 @@
                         </tr>
                         <tr>
                             <td><p>Qeema Macaroni</p><small>Satisfy your taste buds with our hearty and flavorful Qeema
-                                Macaroni, featuring perfectly cooked macaroni noodles mixed with savory and spicy minced
+                                Macaroni, featuring perfectly cooked macaroni pasta mixed with savory and spicy minced
                                 beef/chicken (qeema) and a variety of aromatic spices for a classic Pakistani twist on a
                                 classic favorite.</small></td>
                             <td>$110</td>
@@ -1173,17 +1118,10 @@
                             <td>$125</td>
                         </tr>
                         <tr>
-                            <td><p>Fettuccine Alfredo </p><small>Indulge in the rich and creamy flavors of our
-                                Fettuccine Alfredo (with chicken), made with perfectly cooked fettuccine noodles
-                                smothered in a luxuriously creamy and cheesy sauce and topped with tender and juicy
-                                chicken pieces for a truly indulgent meal.</small></td>
-                            <td>$100</td>
-                        </tr>
-                        <tr>
-                            <td><p>(with chicken)</p><small>Experience a unique and flavorful twist on classic pasta
-                                with our White Pasta with Spicy Koila Chicken, featuring perfectly cooked pasta noodles
-                                smothered in a rich and savory white sauce infused with spicy Koila chicken for a truly
-                                unforgettable meal.</small></td>
+                            <td><p>Fettuccine Alfredo</p><small>Indulge in the rich and creamy flavors of our Fettuccine
+                                Alfredo (with chicken), made with perfectly cooked fettuccine noodles smothered in a
+                                luxuriously creamy and cheesy sauce and topped with tender and juicy chicken pieces for
+                                a truly indulgent meal. Vegetarian option is available.</small></td>
                             <td>$120</td>
                         </tr>
                         <tr>
@@ -1194,79 +1132,75 @@
                             <td>$130</td>
                         </tr>
                         <tr>
-                            <td><p>Lasagna</p><small>Indulge in the tangy and refreshing flavors of our Creamy Lemon
-                                Butter Chicken Spaghetti, featuring perfectly cooked spaghetti noodles smothered in a
-                                luxuriously creamy and tangy sauce infused with succulent and juicy chicken pieces for a
-                                satisfying and refreshing meal.</small></td>
+                            <td><p>Lasagna</p><small>This delightful pasta dish features tender chicken and spaghetti
+                                cooked to perfection in a creamy and tangy lemon butter sauce, creating a burst of
+                                flavor in every bite.</small></td>
                             <td>$130</td>
                         </tr>
                         <tr>
-                            <td><p>Creamy Lemon Butter Chicken Spaghetti</p><small>Creamy Lemon Butter Chicken Spaghetti
-                                - This delightful pasta dish features tender chicken and spaghetti cooked to perfection
-                                in a creamy and tangy lemon butter sauce, creating a burst of flavor in every
-                                bite.</small></td>
+                            <td><p>Creamy Lemon Butter Chicken Spaghetti</p><small>This delightful pasta dish features
+                                tender chicken and spaghetti cooked to perfection in a creamy and tangy lemon butter
+                                sauce, creating a burst of flavor in every bite.</small></td>
                             <td>$130</td>
                         </tr>
                         <tr>
-                            <td><p>Creamy Shrimp Linguine</p><small>Creamy Shrimp Linguine - Our mouthwatering linguine
-                                dish is infused with a creamy and savory sauce that's packed with succulent shrimp and
-                                aromatic herbs, delivering a satisfying and indulgent meal that's perfect for seafood
-                                lovers.</small></td>
+                            <td><p>Creamy Shrimp Linguine</p><small>Our mouthwatering linguine dish is infused with a
+                                creamy and savory sauce that's packed with succulent shrimp and aromatic herbs,
+                                delivering a satisfying and indulgent meal that's perfect for seafood lovers.</small>
+                            </td>
                             <td>$180</td>
                         </tr>
                         <tr>
-                            <td><p>Beef Stroganoff</p><small>Beef Stroganoff - This classic dish features tender strips
-                                of beef cooked in a rich and creamy sauce that's flavored with a blend of aromatic
-                                spices and herbs, creating a hearty and satisfying meal that's perfect for any
-                                occasion.</small></td>
+                            <td><p>Beef Stroganoff</p><small>This classic dish features tender strips of beef cooked in
+                                a rich and creamy sauce that's flavored with a blend of aromatic spices and herbs,
+                                creating a hearty and satisfying meal that's perfect for any occasion.</small></td>
                             <td>$140</td>
                         </tr>
                         <tr>
-                            <td><p>Creamy Mushroom Stroganoff</p><small>Creamy Mushroom Stroganoff - Our vegetarian
-                                version of the classic stroganoff dish features a delicious and creamy sauce that's
-                                packed with flavorful mushrooms and a blend of aromatic spices and herbs, creating a
-                                satisfying and healthy meal that's perfect for any time of day.</small></td>
-                            <td>$125</td>
-                        </tr>
-                        <tr>
-                            <td><p>Chicken Mushroom Casserole</p><small>Chicken Mushroom Casserole - This delicious
-                                casserole dish showcases tender chunks of chicken and flavorful mushrooms that are baked
-                                to perfection in a creamy and savory sauce, creating a hearty and satisfying meal that's
-                                perfect for family dinners.</small></td>
-                            <td>$125</td>
-                        </tr>
-                        <tr>
-                            <td><p>Chicken n Bread Pie Casserole</p><small>Chicken n Bread Pie Casserole - Our savory
-                                and comforting casserole features tender chicken, soft and fluffy bread, and a blend of
-                                aromatic spices and herbs, creating a satisfying and indulgent meal that's perfect for
-                                any occasion.</small></td>
-                            <td>$125</td>
-                        </tr>
-                        <tr>
-                            <td><p>Mashed Potato Casserole</p><small>Mashed Potato Casserole - Our creamy and flavorful
-                                casserole features a medley of tender and buttery mashed potatoes, savory cheese, and a
-                                blend of aromatic spices and herbs, creating a delicious and indulgent meal that's
+                            <td><p>Creamy Mushroom Stroganoff</p><small>Our vegetarian version of the classic stroganoff
+                                dish features a delicious and creamy sauce that's packed with flavorful mushrooms and a
+                                blend of aromatic spices and herbs, creating a satisfying and healthy meal that's
                                 perfect for any time of day.</small></td>
+                            <td>$125</td>
+                        </tr>
+                        <tr>
+                            <td><p>Chicken Mushroom Casserole</p><small>This delicious casserole dish showcases tender
+                                chunks of chicken and flavorful mushrooms that are baked to perfection in a creamy and
+                                savory sauce, creating a hearty and satisfying meal that's perfect for family
+                                dinners.</small></td>
+                            <td>$125</td>
+                        </tr>
+                        <tr>
+                            <td><p>Chicken n Bread Pie Casserole</p><small>Our savory and comforting casserole features
+                                tender chicken, soft and fluffy bread, and a blend of aromatic spices and herbs,
+                                creating a satisfying and indulgent meal that's perfect for any occasion.</small></td>
+                            <td>$125</td>
+                        </tr>
+                        <tr>
+                            <td><p>Mashed Potato Casserole</p><small>Our creamy and flavorful casserole features a
+                                medley of tender and buttery mashed potatoes, savory cheese, and a blend of aromatic
+                                spices and herbs, creating a delicious and indulgent meal that's perfect for any time of
+                                day.</small></td>
                             <td>$80</td>
                         </tr>
                         <tr>
-                            <td><p>Mexican Chicken Casserole</p><small>Mexican Chicken Casserole - This zesty and
-                                flavorful casserole dish features tender chunks of chicken, flavorful beans and rice,
-                                and a blend of aromatic spices and herbs, creating a satisfying and healthy meal that's
-                                perfect for any occasion.</small></td>
+                            <td><p>Mexican Chicken Casserole</p><small>This zesty and flavorful casserole dish features
+                                tender chunks of chicken, flavorful beans and rice, and a blend of aromatic spices and
+                                herbs, creating a satisfying and healthy meal that's perfect for any occasion.</small>
+                            </td>
                             <td>$125</td>
                         </tr>
                         <tr>
-                            <td><p>Chicken Pot Pie</p><small>Chicken Pot Pie - Our classic and comforting pot pie
-                                features tender chicken, mixed vegetables, and a rich and savory gravy that's baked to
-                                perfection in a flaky and buttery crust, creating a satisfying and indulgent meal that's
-                                perfect for any time of day.</small></td>
+                            <td><p>Chicken Pot Pie</p><small>Our classic and comforting pot pie features tender chicken,
+                                mixed vegetables, and a rich and savory gravy that's baked to perfection in a flaky and
+                                buttery crust, creating a satisfying and indulgent meal that's perfect for any time of
+                                day.</small></td>
                             <td>$130</td>
                         </tr>
                         <tr>
-                            <td><p>Shepard's Pie</p><small>Shepard's Pie - This hearty and flavorful pie features a
-                                medley of tender ground beef, mixed vegetables, and creamy mashed potatoes, creating a
-                                satisfying and comforting meal that's perfect for any occasion.</small></td>
+                            <td><p>Shepard's Pie</p><small>This hearty and flavorful pie features a medley of tender
+                                ground beef, mixed vegetables, and creamy mashed potatoes, creating a satisfying and
+                                comforting meal that's perfect for any occasion.</small></td>
                             <td>$130</td>
                         </tr>
                         </tbody>
@@ -1499,8 +1433,8 @@
                         <tr>
                             <td>
                                 <p>
-                                    Channa Chaat, Aloo Tikki Chaat, Dahi Bahla, Pani Puri, Bhel Puri<
-                                    /p>
+                                    Channa Chaat, Aloo Tikki Chaat, Dahi Bahla, Pani Puri, Bhel Puri
+                                </p>
                             </td>
                         </tr>
                         <tr>
